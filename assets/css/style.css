@@ -1,0 +1,12 @@
+#apresentacao{
+	font-size:30px;
+	padding: 20px;
+	background-image: linear-gradient(to bottom,#FF002C, #980021);
+}
+#apresentacao img{
+	border-radius: 9px;
+}
+#menu{
+	color:#FFF;
+	background-image: linear-gradient(to bottom,#752DFF,#480EB3);
+}
