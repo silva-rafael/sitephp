@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+}
+li{
+	margin-left: 20px;
+}
+#active{
+	border-bottom: 3px solid #777;
+}
+li:hover{
+	border-bottom: 3px solid #777;
+}
+.banner{
+	/*para width seria largura vw*/
+	/*height: calc ( 100vh - 60px);*/	
+	height: 100vh;
+	background-image: url(../_images/fundo-topo.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
+.texto h1{
+	color: #fff;
+	font-family: arial;
+
+}
+.btn{
+	width: 200px;
+	height: 60px;
+	margin-top: 50px;
+}
+#primeira-linha{
+	align-items: center;
+	justify-content: center;
+	min-height: 400px;
+	margin-top: 100px;
+}
+#primeira-linha-texto{
+	margin-bottom: 100px;
+}
+#primeira-linha-imagem{
+	margin-bottom: 100px;
+}
+#primeira-linha-texto h2{
+	color: #333;
+	font-size: 40px;
+	font-family: arial;
+}
+#primeira-linha-texto p{
+	color: #333;
+	font-size: 20px;
+	font-family: arial;
+
+}
+#footer-linha{
+	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	min-height: 100px;
+}
+#footer-coluna{
+	color: white;
+}
+#formulario{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+#mapa{
+	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
