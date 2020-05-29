@@ -50,7 +50,7 @@ $post            = mysqli_fetch_assoc($query);
       <div class="banner">
         <div class="texto">
           <h1 class="display-1">Infotecjs</h1>
-          <h1 class="display-5">Precisa de um site?<br>Entre em contato</h1>
+          <h1 class="display-5">Você precisa de um site.<br>Entre em contato</h1>
           <a href="https://wa.me/5532998083600">
             <button type="button" class="btn btn-success">Whatapp</button>
           </a>
